@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Git</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header></header>
     <main>
         <h1>Projet git</h1>
-        <h2>Commandes git</h2>
+        <h2>Commandes git :</h2>
         <ul>
             <li>Initialiser le projet git avec [ git init ]</li>
             <li>Ajouter la page ou le projet pour le commit [git add index.html ] ou [ git add . ]</li>
@@ -22,13 +23,23 @@
             <li>[ git tag "nom_du_tag"] pour ajouter un tag sur un ancien commit</li>
             <li>[ git checkout master ] pour retourner sur la brancher principale</li>
         </ul>
-        <h2>Commandes github</h2>
+        <h2>Commandes github :</h2>
+        <h3>Initialisation d'un projet sur GitHub</h3>
         <ul>
             <li>Aller sur gitHub et créer un nouveau repositoty</li>
             <li>Prendre le lien du repo exemple : https://github.com/SCH-Matthys/Projet_git.git</li>
             <li>Changer l'origine du projet en utilisant la commande exemple : [ git remote add origin https://github.com/SCH-Matthys/Projet_git.git ]</li>
             <li>GitHub utilise les "main" au lieu du "master" il faut le remplacer en utilisant [ git branch -M main ]</li>
             <li>Pour envoyer le projet sur GitHub utiliser la commande [ git push -u origin main ]</li>
+            <li>Une fois le projet envoyé sur GitHub, [ git add ] / [ git commit ] / [ git push ]</li>
+        </ul>
+        <p>Pour supprimer un repositoty, il faut aller sur GitHub > dans les settings > dans la "Danger Zone" > supprimer repositoty</p>
+        <h3>Récuperer un projet venant de GitHub</h3>
+        <ul>
+            <li>Créer un dossier sur l'orinateur exemple : TD HTML Correction</li>
+            <li>Ouvrir un Terminal GitBash ou VSCode dans le dossier voulu</li>
+            <li>Utiliser la commande [ git clone https://github.com/LudovicLegros/td-html ] ( le lien vient du repositoty à cloner )</li>
+            <li>En cas de mise à jour du projet sur le GitHub pour ne pas cloner le projet entierement et prendre uniquement les modifications [ git pull ] </li>
         </ul>
     </main>
     <footer></footer>

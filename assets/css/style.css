@@ -1,0 +1,18 @@
+*{}
+
+main{
+    padding: 16px;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+li{
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-decoration: underline red;
+}
